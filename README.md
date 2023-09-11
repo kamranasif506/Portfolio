@@ -79,7 +79,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://kamranasif506.github.io/portfolio/)
+- [Live Demo Link](https://portfolio-five-xi-47.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
