@@ -551,7 +551,7 @@ ul li {
 }
 
 .c_height {
-  height: 264px !important;
+  min-height: 264px !important;
 }
 
 .orderlist li {
