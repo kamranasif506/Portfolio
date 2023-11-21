@@ -831,6 +831,7 @@ button:focus {
 
 .white-vertion ul li {
   color: #000;
+  width: fit-content;
 }
 
 .white-vertion div {
