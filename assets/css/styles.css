@@ -172,6 +172,12 @@ a:focus {
   height: 100%;
 }
 
+.text-sm {
+  font-size: 8px !important;
+  margin-bottom: 1px !important;
+  margin-top: 1px !important;
+}
+
 .display-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -540,6 +546,17 @@ ul li {
   list-style-type: none;
 }
 
+.orderlist {
+  padding-left: 20px;
+}
+
+.c_height {
+  height: 264px !important;
+}
+
+.orderlist li {
+  list-style-type: disc;
+}
 /**
  * =================
  * CONTAINER HALF CONTENT
