@@ -175,6 +175,8 @@
                                     <li><span>HTML</span></li>
                                     <li><span>css</span></li>
                                     <li><span>React</span></li>
+                                    <li><span>Ruby On Rails</span></li>
+                                    <li><span>PostgreSQL</span></li>
                                    
                                 </ul>
                             </div>
