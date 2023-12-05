@@ -487,6 +487,7 @@
                                 <li data-filter=".codeigniter" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>CodeIgniter</span></li>
                                 <li data-filter=".laravel" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Laravel</span></li>
                                 <li data-filter=".react" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>React & Redux</span></li>
+                                <li data-filter=".ror" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>Ruby On Rails</span></li>
                             </ul>
                         </div>
                         <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
@@ -535,13 +536,13 @@
                                         </figcaption>
                                     </figure>
                                 </div>
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 codeigniter">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ror">
                                     <figure>
-                                        <img src="assets/images/hospital.png" alt="img04">
+                                        <img src="assets/images/budget.png" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
-                                            <h5 class="title">Hospital Management System</h5>
-                                            <span class="sub-title">CodeIgniter Project</span>
+                                            <h5 class="title">Budget-App</h5>
+                                            <span class="sub-title">Ruby On Rails Project</span>
                                             <a href="assets/images/hospital.png" data-fancybox data-src="#hms"></a>
                                         </figcaption>
                                     </figure>
@@ -557,13 +558,13 @@
                                         </figcaption>
                                     </figure>
                                 </div>
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 codeigniter">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 react">
                                     <figure>
-                                        <img src="assets/images/resturant.png" alt="img04">
+                                        <img src="assets/images/math.png" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
-                                            <h5 class="title">Resturant Management System</h5>
-                                            <span class="sub-title">CodeIgniter Project</span>
+                                            <h5 class="title">Math Magician</h5>
+                                            <span class="sub-title">React Project</span>
                                             <a href="assets/images/portfolio/g8.png" data-fancybox data-src="#rms"></a>
                                         </figcaption>
                                     </figure>
@@ -576,6 +577,17 @@
                                             <h5 class="title">HostFit</h5>
                                             <span class="sub-title">Laravel Project</span>
                                             <a href="assets/images/tours" data-fancybox data-src="#hostfit"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ror">
+                                    <figure>
+                                        <img src="assets/images/doctor.png" alt="doc">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Book A Doctor</h5>
+                                            <span class="sub-title">Ruby On Rails Project</span>
+                                            <a href="assets/images/doctor" data-fancybox data-src="#doc"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -791,46 +803,25 @@
                 <div class="container">
                     <div class="row mh-portfolio-modal-inner">
                         <div class="col-sm-5">
-                            <h2>Resturant Management System</h2>
-                            <p>Restaurant Management System provides the solution to restaurant for managing their order and rooms.</p>
+                            <h2>Math Magician</h2>
+                            <p>"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.</p>
 
-                            <p>Admin can do following tasks in restaurant management system</p>
-                            <ol class="work-responsibility">
-                                <li>Manage Rooms</li>
-                                <li>Manage Guests</li>
-                                <li>Manage Reservations</li>
-                                <li>Manage Expenses</li>
-                                <li>View Checkout History</li>
-                                <li>Place Orders for Eatable Products</li>
-                                <li>Print Invoices</li>
-                                <li>Manage Restaurant Products</li>
-                                <li>Manage Full Point of Sale (POS) Module</li>
-                                <li>View Profit and Loss Reports</li>
-                                <li>Manage Stock In/Stock Out</li>
-                            </ol>
                             
-                            <p><h5>Demo Access</H5><br>
-                                <b>Admin Panel</b>
-                                <br>
-                                Username : admin  |  Password: admin
-                            </p>                                
-
                             <div class="mh-about-tag">
                                 <ul>
-                                    <li><span>PHP</span></li>
                                     <li><span>HTML</span></li>
                                     <li><span>CSS</span></li>
-                                    <li><span>JQuery</span></li>
-                                    <li><span>CodeIgniter</span></li>
-                                    <li><span>MySQL</span></li>
+                                    <li><span>JavaScript</span></li>
+                                    <li><span>React</span></li>
                                     <li><span>API integration</span></li>
                                 </ul>
                             </div>
-                            <a href="http://upos.uvisionpk.com/restaurant/admin/login" target="_blanck" class="btn btn-fill">Live Demo</a>
+                            <a href="https://math-magician-1l3r.vercel.app/" target="_blanck" class="btn btn-fill">Live Demo</a>
+                            <a href="https://github.com/kamranasif506/math-magician" target="_blanck" class="btn btn-fill">Source Code</a>
                         </div>
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
-                                <img src="assets/images/resturant.png" alt="" class="img-fluid">
+                                <img src="assets/images/math.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -840,91 +831,24 @@
                 <div class="container">
                     <div class="row mh-portfolio-modal-inner">
                         <div class="col-sm-5">
-                            <h2>Hospital Management System</h2>
-                            <p>Hospital Management System is Web portal to manage all operation of hospital including the medical store pos. The HMS contains 4 panels.</p>       
-                            <ol class="work-responsibility">
-                                <li>Admin Panel</li>
-                                <li>Doctors Panel</li>
-                                <li>Receptionist</li>
-                                <li>Pharmacist</li>
-                            </ol>
-                            <br>
-                            <h3>Admin Panel</h3>
-                            <p>Admin can do following things</p>
-                            <ol class="work-responsibility">
-                                <li>Manage Doctors</li>
-                                <li>Manage Pharmacists</li>
-                                <li>Manage Receptionists</li>
-                                <li>Manage Patients</li>
-                                <li>Manage Medicine/Products Stock</li>
-                                <li>View Appointments</li>
-                                <li>View Daily Reports</li>
-                                <li>Manage Expenses</li>
-                            </ol>
-                            <br>
-                            <h3>Doctors Panel</h3>
-                            <p>Doctors can do following things</p>
-                            <ol class="work-responsibility">
-                                <li>View Appointments Assigned</li>
-                                <li>Give Prescription</li>
-                                <li>Add Tests</li>
-                                <li>Add Symptoms</li>
-                                <li>Print Medicine/Test/Symptom Receipt</li>
-                            </ol>
-                            <h3>Receptionist Panel</h3>
-                            <p>Receptionist can do following things</p>
-                            <ol class="work-responsibility">
-                                <li>Manage Patients</li>
-                                <li>Manage Appointments</li>
-                                <li>Assign Patients to Doctors</li>
-                                <li>Apply Discounts</li>
-                                <li>Print Invoice Tokens</li>
-                            </ol>
-                            
-
-                            <h3>Pharmacist Panel</h3>
-                            <p>Pharmacist can do following things</p>
-                            <ol class="work-responsibility">
-                                <li>Manage Medicine/Products</li>
-                                <li>Manage Full Point of Sale (POS)</li>
-                                <li>Search with Patient Token Number</li>
-                                <li>Print Invoice</li>
-                            </ol>
-                            <p><h5>Demo Access</H5><br>
-                                <b>Admin Panel</b>
-                                <br>
-                                <a href="https://upos.uvisionpk.com/hospital/admin/login" target="_blanck" style="color: #37d6bd !important">https://upos.uvisionpk.com/hospital/admin/login</a>
-                                <br>Username : admin  |  Password: admin
-                                <br>
-                                <b>Doctors Panel</b>
-                                <br>
-                                <a href="https://upos.uvisionpk.com/hospital/admin/login" target="_blanck" style="color: #37d6bd !important">https://upos.uvisionpk.com/hospital/admin/login</a>
-                                <br>Username : doctor  |  Password: admin
-                                <br>
-                                <b>Receptionist Panel</b><br>
-                                <a href="https://upos.uvisionpk.com/hospital/admin/login" target="_blanck" style="color: #37d6bd !important">https://upos.uvisionpk.com/hospital/admin/login</a>
-                                <br>Username : receptionist  |  Password: admin 
-                                <br>
-                                <b>Pharmacist Panel</b><br>
-                                <a href="https://upos.uvisionpk.com/hospital/admin/login" target="_blanck" style="color: #37d6bd !important">https://upos.uvisionpk.com/hospital/admin/login</a>
-                                <br>Username : pharmacist  |  Password: admin 
-                            </p>                                
+                            <h2>Budget-App</h2>
+                            <p>Budget-App is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.</p>       
+                                                     
 
                             <div class="mh-about-tag">
                                 <ul>
-                                    <li><span>PHP</span></li>
+                                    <li><span>Ruby On Rails</span></li>
                                     <li><span>HTML</span></li>
                                     <li><span>CSS</span></li>
-                                    <li><span>JQuery</span></li>
-                                    <li><span>CodeIgniter</span></li>
-                                    <li><span>MySQL</span></li>
+                                    <li><span>PostgreSQL</span></li>
                                 </ul>
                             </div>
-                            <a href="http://upos.uvisionpk.com/hospital/admin/login" target="_blanck" class="btn btn-fill">Live Demo</a>
+                            <a href="https://budget-app-c5gd.onrender.com/" target="_blanck" class="btn btn-fill">Live Demo</a>
+                            <a href="https://github.com/kamranasif506/Budget-App" target="_blanck" class="btn btn-fill">Source Code</a>
                         </div>
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
-                                <img src="assets/images/hospital.png" alt="" class="img-fluid">
+                                <img src="assets/images/budget.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -1016,6 +940,34 @@
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
                                 <img src="assets/images/tours.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mh-portfolio-modal" id="doc">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                        <div class="col-sm-5">
+                            <h2>Book A Doctor</h2>
+                            <p>"Book A Doctor" - is an Online Doctor Reservation web application designed to provide users with the ability to reserve, view, and manage doctors and doctor appointment reservation . The system aims to streamline the process of finding and booking doctors from various locations.</p>
+
+                            
+                            <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>React</span></li>
+                                    <li><span>Redux</span></li>
+                                    <li><span>Ruby On Rails</span></li>
+                                    <li><span>PostgreSQL</span></li>
+                                    <li><span>API integration</span></li>
+                                </ul>
+                            </div>
+                            <a href="https://book-a-doctor.onrender.com/" target="_blanck" class="btn btn-fill">Live Demo</a>
+                            <a href="https://github.com/kamranasif506/Book-A-Doctor" target="_blanck" class="btn btn-fill">Source Code</a>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                <img src="assets/images/doctor.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
