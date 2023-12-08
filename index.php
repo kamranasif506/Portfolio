@@ -266,7 +266,7 @@
                                                     changes to resume logics and services, resolving issues related to the payment gateway, and fixing various
                                                     bugs. Additionally, I successfully updated the Laravel version from 5.8 to 9.*, ensuring the website was
                                                     running on the latest and most efficient framework version.</p>
-                                                <a href="https://careercenter.am/" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Visit Website</a>
+                                                <a href="https://careercenter.am/" target="_blanck" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Visit Website</a>
                     
                                             </div>
                                         </div>
