@@ -10,7 +10,8 @@
         <meta name="description" content="Kamran Asif Personal cv/resume." />
         <meta name="keywords" content="kamran asif, cv, web developer,  remote job, codeIgniter developer, powerful portfolio, professional, professional resume, responsive, resume, laravel developer, API development " />
         <meta name="developer" content="Kamran Asif">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                
         <!-- FAV AND ICONS   -->
         <link rel="shortcut icon" href="assets/images/favicon.ico">
         <link rel="shortcut icon" href="assets/images/apple-icon.png">
@@ -18,7 +19,7 @@
         <link rel="shortcut icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
         
         <!-- Google Font-->
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
         <!-- Bootstrap CSS -->
@@ -35,8 +36,14 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
         
         <!-- Colors -->
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/blue.css" title="blue"> -->
         <link rel="stylesheet" href="assets/css/colors/defauld.css" title="defauld">
-        
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/green.css" title="green"> -->
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/blue-munsell.css" title="blue-munsell"> -->
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/orange.css" title="orange"> -->
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/purple.css" title="purple">  -->
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/slate.css" title="slate"> -->
+        <!-- <link rel="alternate stylesheet" href="assets/css/colors/yellow.css" title="yellow"> -->
         
     </head>
     <body class="white-vertion black-bg">
@@ -84,6 +91,9 @@
                                 </li>                                
                                 <li class="nav-item">
                                     <a class="nav-link" href="#mh-portfolio">Portfolio</a>
+                                </li>                               
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-pricing">Pricing</a>
                                 </li>
                                 <li class="nav-item">
                                    <a class="nav-link" href="#mh-contact">Contact</a>
@@ -120,10 +130,10 @@
                                 </ul>
                                 
                                 <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                    <li><a href="https://www.facebook.com/profile.php?id=100007140454507" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://twitter.com/kamiasif55" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://github.com/kamranasif506/" target="_blank"><i class="fa fa-github"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/kamran-asif/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100007140454507"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com/kamiasif55"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://github.com/kamranasif506/"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/kamran-asif/"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -156,9 +166,11 @@
                         <div class="mh-about-inner">
                             <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">About Me</h2>
                             <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                                Highly skilled and motivated Software Engineer with a strong foundation in full-stack web development, 
-                                specializing in PHP and Laravel. Holds a bachelor's degree in Software Engineering and over 3 years of experience,
-                                successfully designing and implementing robust web applications using popular frameworks such as CodeIgniter and Laravel.
+                                I am a highly skilled and motivated software engineer with a strong foundation
+                                in website development and expertise in PHP programming. With a Bachelor's
+                                degree in Software Engineering and over three years of professional
+                                experience, I have successfully designed and implemented robust web
+                                applications using popular frameworks such as CodeIgniter and Laravel.
                                 Additionally, I have extensive experience in REST API development and
                                 WordPress plugin development.
                             </p>
@@ -175,12 +187,10 @@
                                     <li><span>HTML</span></li>
                                     <li><span>css</span></li>
                                     <li><span>React</span></li>
-                                    <li><span>Ruby On Rails</span></li>
-                                    <li><span>PostgreSQL</span></li>
                                    
                                 </ul>
                             </div>
-                            <a href="assets/Kamran_Asif_Resume.pdf" target="_blank" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Resume <i class="fa fa-arrow-right"></i></a>
+                            <a href="assets/Resume.pdf" target="_blanck" download="Kamran-Asif.pdf" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Downlaod CV <i class="fa fa-download"></i></a>
                         </div>
                     </div>
                 </div>
@@ -199,36 +209,25 @@
                         <h2>What I do</h2>
                     </div>
                     
-                    <div class="col-sm-12 col-md-4">
-                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp c_height" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s" style="height:100% !important">
                             <i class="fa fa-code iron-color"></i>
                             <h3>Web Development</h3>
-                            <ul class="orderlist">
-                                <li>Bug Fixing</li>
-                                <li>Website Development</li>
-                                <li>Website Maintainance</li>
-                            </ul>
+                            
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp c_height" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="height:100% !important">
                             <i class="fa fa-bullseye purple-color"></i>
                             <h3>REST API Development</h3>
-                            <ul class="orderlist">
-                                <li>API Development</li>
-                                <li>REST API Integration</li>
-                            </ul>
+                            
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp c_height" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
                             <i class="fa fa-object-ungroup sky-color"></i>
                             <h3>Wordpress Plugin Development</h3>
-                            <ul class="orderlist">
-                                <li>Bug Fixing</li>
-                                <li>Custom Plugin Development</li>
-                                <li>Custom Theme Development</li>
-                            </ul>
+                            
                         </div>
                     </div>
                 </div>
@@ -266,7 +265,7 @@
                                                     changes to resume logics and services, resolving issues related to the payment gateway, and fixing various
                                                     bugs. Additionally, I successfully updated the Laravel version from 5.8 to 9.*, ensuring the website was
                                                     running on the latest and most efficient framework version.</p>
-                                                <a href="https://careercenter.am/" target="_blanck" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Visit Website</a>
+                                                <a href="https://careercenter.am/" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Visit Website</a>
                     
                                             </div>
                                         </div>
@@ -304,17 +303,16 @@
                                     <div class="row">
                                         <div class="col-sm-7 d-flex">
                                             <div class="mh-featured-project-img shadow-2 wow fadeInUp mt-auto mb-auto" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                                                <img src="assets/images/abc.png" style="max-width: 50% !important;" alt="" class="img-fluid">
+                                                <img src="assets/images/math.png" alt="" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="col-sm-5">
                                             <div class="mh-featured-project-content">
-                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">React</h4>
-                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Matrix WebApp</h2>
+                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Web Design</h4>
+                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Math Magician</h2>
                                                 <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">React Development</span>
-                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">The "Metrics Webapp" displays the list of English Premier League standings for the current season and provides details about each team and their matches, which is a very famous football league.</p>
-                                                <a href="https://metrics-webapp-git-features-kamranasif506.vercel.app/" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">View Details</a>
-                                                <a href="https://github.com/kamranasif506/Metrics-webapp" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">View Source Code</a>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.</p>
+                                                <a href="#" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">View Details</a>
                                                 
                                             </div>
                                         </div>
@@ -344,32 +342,106 @@
                                 <div class="mh-professional-skill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                                     <h3>Technical Skills</h3>
                                     <div class="each-skills">
-                                        <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                            <ul>
-                                                <li><span>PHP</span></li>
-                                                <li><span>Laravel</span></li>
-                                                <li><span>CodeIgniter</span></li>
-                                                <li><span>Google App Script</span></li>
-                                                <li><span>Wordpress Plugin Development</span></li>
-                                                <li><span>Javascript</span></li>
-                                                <li><span>JQuery</span></li>
-                                                <li><span>REST API</span></li>
-                                                <li><span>MySQL</span></li>
-                                                <li><span>PostgreSQL</span></li>
-                                                <li><span>HTML</span></li>
-                                                <li><span>CSS</span></li>
-                                                <li><span>React</span></li>
-                                                <li><span>Ruby On Rails</span></li>
-                                                <li><span>Redux</span></li>
-                                                <li><span>API Integration</span></li>
-                                                <li><span>Unit Testing</span></li>
-                                                <li><span>Code Reviews</span></li>
-                                                <li><span>Website Development</span></li>
-                                                <li><span>SaaS</span></li>
-                                               
-                                            </ul>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Javascript</div>
+                                                    <div class="percentagem-num">85%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 85%;"></div>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">HTML</div>
+                                                    <div class="percentagem-num">80%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 80%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">CSS</div>
+                                                    <div class="percentagem-num">80%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 80%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">PHP</div>
+                                                    <div class="percentagem-num">80%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 80%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>                                    
                                         
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">MySQL</div>
+                                                    <div class="percentagem-num">80%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 80%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">RestFull API</div>
+                                                    <div class="percentagem-num">70%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 70%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Wordpress Plugin Development</div>
+                                                    <div class="percentagem-num">75%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 75%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">CodeIgniter Framework</div>
+                                                    <div class="percentagem-num">80%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 80%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Laravel Framework</div>
+                                                    <div class="percentagem-num">70%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 70%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -377,20 +449,24 @@
                         <div class="col-sm-12 col-md-6">
                             <div class="mh-professional-skills wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
                                 <h3>Professional Skills</h3>
-                                <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                    <ul>
-                                        <li><span>Problem Solving</span></li>
-                                        <li><span>Communication</span></li>
-                                        <li><span>Team Work</span></li>
-                                        <li><span>Project Management</span></li>
-                                        <li><span>Creativity</span></li>
-                                        <li><span>Collaboration</span></li>
-                                        <li><span>Time Management</span></li>
-                                        <li><span>Critical Thinking</span></li>
-                                        <li><span>Team Player</span></li>
-                                        <li><span>Leadership</span></li>
-                                    </ul>
-                                </div>
+                                <ul class="mh-professional-progress">
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="95"></div>
+                                        <div class="pr-skill-name">Communication</div>
+                                    </li>
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="75"></div> 
+                                        <div class="pr-skill-name">Team Work</div>
+                                    </li>
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="80"></div>
+                                        <div class="pr-skill-name">Project Management</div>
+                                    </li> 
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="90"></div>
+                                        <div class="pr-skill-name">Creativity</div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -414,7 +490,7 @@
                                     <!-- Education Institutes-->
                                     <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                                         <h4>Full Stack Development From <a href="#">Microverse</a></h4>
-                                        <div class="mh-eduyear">March 2023 - November 2023</div>
+                                        <div class="mh-eduyear">2023-in process</div>
                                         <p>Microverse is a renowned remote software development program. Through Microverse, I've gained valuable experience in remote work and collaborative pair programming.
                                         </p>
                                     </div>                                
@@ -422,7 +498,8 @@
                                     <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
                                         <h4>Software Engineering From <a href="#">University Of Sargodha</a></h4>
                                         <div class="mh-eduyear">2014-2018</div>
-                                        <p>I graduated in Software Engineering, equipping myself with a comprehensive understanding of software development principles and practices to tackle complex technological challenges. My academic journey has laid a solid foundation for my pursuit of excellence in the field.</p>
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a 
+                                        page when looking at its layout. The point of using  Lorem Ipsum </p>
                                     </div>                                
                                     <!-- Education Institutes-->
                                     
@@ -489,7 +566,6 @@
                                 <li data-filter=".codeigniter" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>CodeIgniter</span></li>
                                 <li data-filter=".laravel" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Laravel</span></li>
                                 <li data-filter=".react" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>React & Redux</span></li>
-                                <li data-filter=".ror" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>Ruby On Rails</span></li>
                             </ul>
                         </div>
                         <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
@@ -501,7 +577,7 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Careercenter</h5>
                                             <span class="sub-title">Laravel Project</span>
-                                            <a href="assets/images/careercenter.png" data-fancybox data-src="#careercenter"></a>
+                                            <a href="assets/images/careercenter.png" data-fancybox data-src="#laravel"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -512,7 +588,7 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Math Trainer</h5>
                                             <span class="sub-title">CodeIgniter Project</span>
-                                            <a href="assets/images/asmd.png" data-fancybox data-src="#asmd"></a>
+                                            <a href="assets/images/asmd.png" data-fancybox data-src="#mh"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -523,7 +599,7 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">School Management System</h5>
                                             <span class="sub-title">CodeIgniter Project</span>
-                                            <a href="assets/images/school.png" data-fancybox data-src="#school"></a>
+                                            <a href="assets/images/school.png" data-fancybox data-src="#codeigniter"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -534,18 +610,18 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Metrics WebApp</h5>
                                             <span class="sub-title">React & Redux Project</span>
-                                            <a href="assets/images/abc.png" data-fancybox data-src="#metrics"></a>
+                                            <a href="assets/images/abc.png" data-fancybox data-src="#react"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ror">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 codeigniter">
                                     <figure>
-                                        <img src="assets/images/budget.png" alt="img04">
+                                        <img src="assets/images/hospital.png" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
-                                            <h5 class="title">Budget-App</h5>
-                                            <span class="sub-title">Ruby On Rails Project</span>
-                                            <a href="assets/images/hospital.png" data-fancybox data-src="#hms"></a>
+                                            <h5 class="title">Hospital Management System</h5>
+                                            <span class="sub-title">CodeIgniter Project</span>
+                                            <a href="assets/images/hospital.png" data-fancybox data-src="#codeigniter"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -556,18 +632,18 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Upos</h5>
                                             <span class="sub-title">CodeIgniter Project</span>
-                                            <a href="assets/images/upos.png" data-fancybox data-src="#upos"></a>
+                                            <a href="assets/images/upos.png" data-fancybox data-src="#codeigniter"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 react">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 codeigniter">
                                     <figure>
-                                        <img src="assets/images/math.png" alt="img04">
+                                        <img src="assets/images/resturant.png" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
-                                            <h5 class="title">Math Magician</h5>
-                                            <span class="sub-title">React Project</span>
-                                            <a href="assets/images/portfolio/g8.png" data-fancybox data-src="#rms"></a>
+                                            <h5 class="title">Resturant Management System</h5>
+                                            <span class="sub-title">CodeIgniter Project</span>
+                                            <a href="assets/images/portfolio/g8.png" data-fancybox data-src="#codeigniter"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -577,19 +653,8 @@
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">HostFit</h5>
-                                            <span class="sub-title">Laravel Project</span>
-                                            <a href="assets/images/tours" data-fancybox data-src="#hostfit"></a>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ror">
-                                    <figure>
-                                        <img src="assets/images/doctor.png" alt="doc">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Book A Doctor</h5>
-                                            <span class="sub-title">Ruby On Rails Project</span>
-                                            <a href="assets/images/doctor" data-fancybox data-src="#doc"></a>
+                                            <span class="sub-title">Photograpy</span>
+                                            <a href="assets/images/tours" data-fancybox data-src="#laravel"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -599,377 +664,39 @@
                     </div> <!-- End: .part -->
                 </div> <!-- End: .row -->
             </div>
-            <div class="mh-portfolio-modal" id="careercenter">
+            <div class="mh-portfolio-modal" id="mh">
                 <div class="container">
                     <div class="row mh-portfolio-modal-inner">
                         <div class="col-sm-5">
-                            <h2>CareerCenter</h2>
-                            <p>Career Center is an Online Job and Career portal promoting Equal Opportunities in Armenia."</p>       
+                            <h2>Wrap - A campanion plugin</h2>
+                            <p>Wrap is a clean and elegant Multipurpose Landing Page Template. 
+                            It will fit perfectly for Startup, Web App or any type of Web Services.
+                            It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+                            All variations are organized separately so you can use / customize the template very easily.</p>       
                             
-                            <p>During my time working on the careercenter.am website, my primary responsibilities included making
-                                changes to resume logics and services, resolving issues related to the payment gateway, and fixing various
-                                bugs. Additionally, I successfully updated the Laravel version from 5.8 to 9.*, ensuring the website was
-                                running on the latest and most efficient framework version</p>      
+                            <p>It is a clean and elegant Multipurpose Landing Page Template. 
+                            It will fit perfectly for Startup, Web App or any type of Web Services.
+                            It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+                            All variations are organized separately so you can use / customize the template very easily.</p>      
                             <div class="mh-about-tag">
                                 <ul>
-                                    <li><span>PHP</span></li>
-                                    <li><span>HTML</span></li>
-                                    <li><span>CSS</span></li>
-                                    <li><span>JQuery</span></li>
-                                    <li><span>Laravel</span></li>
-                                    <li><span>MySQL</span></li>
-                                    
-                                </ul>
-                            </div>
-                            <a href="https://www.careercenter.am/en" target="_blanck" class="btn btn-fill">Live Demo</a>
-                        </div>
-                        <div class="col-sm-7">
-                            <div class="mh-portfolio-modal-img">
-                                <img src="assets/images/careercenter.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mh-portfolio-modal" id="asmd">
-                <div class="container">
-                    <div class="row mh-portfolio-modal-inner">
-                        <div class="col-sm-5">
-                            <h2>Math Trainer</h2>
-                            <p>This training website uses the CodeIgniter framework and features two dashboards: an admin dashboard
-                                for adding students and setting training goals, and a student dashboard requiring login credentials.
-                                Students can select from four types of training (addition, subtraction, multiplication, division) across three
-                                levels, each with sub-levels containing randomly generated questions. Students must answer within a set
-                                time to meet specific goals and pass a certain percentage of questions to progress. Reports track attempts
-                                and progress, while students can manage profiles and passwords, and view their progress on a dedicated
-                                page.
-                                .</p>       
-                            
-                            <p> username: admin</p>
-                            <p> password: admin.</p>      
-                            <div class="mh-about-tag">
-                                <ul>
-                                    <li><span>PHP</span></li>
-                                    <li><span>HTML</span></li>
-                                    <li><span>CSS</span></li>
-                                    <li><span>JQuery</span></li>
-                                    <li><span>CodeIgniter</span></li>
-                                    <li><span>MySQL</span></li>
-                                </ul>
-                            </div>
-                            <a href="https://uvisionpk.com/kamran/asmd/admin/login" target="_blanck" class="btn btn-fill">Live Demo</a>
-                        </div>
-                        <div class="col-sm-7">
-                            <div class="mh-portfolio-modal-img">
-                                <img src="assets/images/asmd.png" alt="" class="img-fluid">
-                                     
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mh-portfolio-modal" id="school">
-                <div class="container">
-                    <div class="row mh-portfolio-modal-inner">
-                        <div class="col-sm-5">
-                            <h2>School Management System</h2>
-                            <p>School Management System is a Web Portal which can managed very easily, by using this you can easily manage the students, teachers and their progress through out the year.</p>       
-                            
-                            <p>There are three panels in a system</p>   
-                            <ol class="work-responsibility">
-                                <li> Admin Panel</li>
-                                <li> Teachers Panel</li>
-                                <li> Student Panel</li>
-                            </ol>
-                            <br>
-                            <h3>Admin Panel</h3>
-                            <p>Admin can do following things</p>
-                            <ol class="work-responsibility">
-                                <li>  Login/Change Profile</li>
-                                <li>  Change Password</li>
-                                <li>  Forgot Password</li>
-                                <li>  Manage Teachers</li>
-                                <li>  Manage Students</li>
-                                <li>  Manage Classes</li>
-                                <li>  Assign Teacher to Classes Subject-wise with Class Timing</li>
-                                <li>  Make Teacher Incharge of Each Class for Attendance</li>
-                                <li>  View Attendance of Different Class Students</li>
-                                <li>  Configure Weekly Holidays and Special Holidays</li>
-                                <li>  Define Examination/Test Series (One Day of the Week) Period for Each Class</li>
-                                <li>  View Fees of Each Student</li>
-                                <li>  Produce Challan Forms for Each Class</li>
-                                <li>  Do Attendance of All Teachers</li>
-                                <li>  View Results of Tests and Exams of Students</li>
-                                <li>  Manage Salary and Other Expenses of School</li>
-                                <li>  View Teachers Feedback</li>
-                                <li>  Define the Syllabus (Subjects/Books by Writer Name) for Each Class</li>
-                                <li>  View Assignment of Each Class</li>
-                            </ol>
-                            <br>
-                            <h3>Teachers Panel</h3>
-                            <p>Teacher can do following things</p>
-                            <ol class="work-responsibility">
-                                <li>  Login</li>
-                                <li>  Change Profile</li>
-                                <li>  Change Password</li>
-                                <li>  Forgot Password</li>
-                                <li>  View Today's Classes</li>
-                                <li>  Take Attendance for Incharge Classes</li>
-                                <li>  Assign Test/Exam Marks to Students</li>
-                                <li>  View Results for Assigned Classes</li>
-                                <li>  View Attendance</li>
-                                <li>  Get Salary Reports</li>
-                                <li>  Give Assignments to Students</li>
-                                <li>  View Assignments</li>
-                            </ol>
-                            <br>
-                            <h3>Student Panel</h3>
-                            <p>Student can do following things</p>
-                            <ol class="work-responsibility">
-                                <li>  Login</li>
-                                <li>  Change Profile</li>
-                                <li>  Change Password</li>
-                                <li>  Forgot Password</li>
-                                <li>  View Today's Class Schedule</li>
-                                <li>  View Attendance</li>
-                                <li>  View Syllabus</li>
-                                <li>  View Fee Structure</li>
-                                <li>  Submit Leave Requests</li>
-                                <li>  Submit Assignments (Subject-wise)</li>
-                                <li>  Check for Missing Assignments</li>
-                                <li>  View Exam and Test Results</li>
-                            </ol>
-                            <p><h5>Demo Access</H5><br>
-                                <b>Admin Panel</b>
-                                <br>
-                                Username : admin  |  Password: admin
-                                <br>
-                                <b>Teachers Panel</b>
-                                <br>
-                                Username : imtiaz  |  Password: imtiaz
-                                <br>
-                                <b>Student Panel</b><br>
-                                
-                                Username : usman  |  Password: usman 
-                            </p>                                
-
-                            <div class="mh-about-tag">
-                                <ul>
-                                    <li><span>PHP</span></li>
-                                    <li><span>HTML</span></li>
-                                    <li><span>CSS</span></li>
-                                    <li><span>JQuery</span></li>
-                                    <li><span>CodeIgniter</span></li>
-                                    <li><span>MySQL</span></li>
-                                </ul>
-                            </div>
-                            <a href="http://kamran.uvisionpk.com/school/login" target="_blanck" class="btn btn-fill">Live Demo</a>
-                        </div>
-                        <div class="col-sm-7">
-                            <div class="mh-portfolio-modal-img">
-                                <img src="assets/images/school.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mh-portfolio-modal" id="metrics">
-                <div class="container">
-                    <div class="row mh-portfolio-modal-inner">
-                        <div class="col-sm-5">
-                            <h2>Metrics WebApp</h2>
-                            <p>The "Metrics Webapp" displays the list of English Premier League standings for the current season and provides details about each team and their matches, which is a very famous football league.</p>       
-                            
-                            <div class="mh-about-tag">
-                                <ul>
-                                    <li><span>HTML</span></li>
-                                    <li><span>CSS</span></li>
-                                    <li><span>React Js</span></li>
-                                    <li><span>Redux Toolkit</span></li>
-                                    <li><span>API Integration</span></li>
-                                    
-                                </ul>
-                            </div>
-                            <a href="https://metrics-webapp-git-features-kamranasif506.vercel.app/" target="_blanck" class="btn btn-fill">Live Demo</a>
-                            <a href="https://github.com/kamranasif506/Metrics-webapp" target="_blanck" class="btn btn-fill">Source Code</a>
-                        </div>
-                        <div class="col-sm-7">
-                            <div class="mh-portfolio-modal-img">
-                                <img src="assets/images/abc.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mh-portfolio-modal" id="rms">
-                <div class="container">
-                    <div class="row mh-portfolio-modal-inner">
-                        <div class="col-sm-5">
-                            <h2>Math Magician</h2>
-                            <p>"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.</p>
-
-                            
-                            <div class="mh-about-tag">
-                                <ul>
-                                    <li><span>HTML</span></li>
-                                    <li><span>CSS</span></li>
-                                    <li><span>JavaScript</span></li>
+                                    <li><span>php</span></li>
+                                    <li><span>html</span></li>
+                                    <li><span>css</span></li>
+                                    <li><span>php</span></li>
+                                    <li><span>wordpress</span></li>
                                     <li><span>React</span></li>
-                                    <li><span>API integration</span></li>
+                                    <li><span>Javascript</span></li>
                                 </ul>
                             </div>
-                            <a href="https://math-magician-1l3r.vercel.app/" target="_blanck" class="btn btn-fill">Live Demo</a>
-                            <a href="https://github.com/kamranasif506/math-magician" target="_blanck" class="btn btn-fill">Source Code</a>
+                            <a href="#" class="btn btn-fill">Live Demo</a>
                         </div>
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
-                                <img src="assets/images/math.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mh-portfolio-modal" id="hms">
-                <div class="container">
-                    <div class="row mh-portfolio-modal-inner">
-                        <div class="col-sm-5">
-                            <h2>Budget-App</h2>
-                            <p>Budget-App is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.</p>       
-                                                     
-
-                            <div class="mh-about-tag">
-                                <ul>
-                                    <li><span>Ruby On Rails</span></li>
-                                    <li><span>HTML</span></li>
-                                    <li><span>CSS</span></li>
-                                    <li><span>PostgreSQL</span></li>
-                                </ul>
-                            </div>
-                            <a href="https://budget-app-c5gd.onrender.com/" target="_blanck" class="btn btn-fill">Live Demo</a>
-                            <a href="https://github.com/kamranasif506/Budget-App" target="_blanck" class="btn btn-fill">Source Code</a>
-                        </div>
-                        <div class="col-sm-7">
-                            <div class="mh-portfolio-modal-img">
-                                <img src="assets/images/budget.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mh-portfolio-modal" id="upos">
-                <div class="container">
-                    <div class="row mh-portfolio-modal-inner">
-                        <div class="col-sm-5">
-                            <h2>UPOS</h2>
-                            <p>Upos is point of sale software, can be used on any retail shop, it will enhance your product sales, saves a time.</p>       
-                            <h3>What is Point of Sale?</h3>
-                            <p>Point of Sale software can be used on any business, it records each and every transaction of business to view business progress</p>
-                            <h3>Features</h3>
-                            <p>It has following feature</p>
-                            <ol class="work-responsibility">
-                                <li>Add Product Categories</li>
-                                <li>Add Products</li>
-                                <li>Add Regular Customers</li>
-                                <li>Add Suppliers for Your Products</li>
-                                <li>Stock In Feature (Including Credit Stock In)</li>
-                                <li>Stock Out Feature</li>
-                                <li>Place Orders (Wholesale or Regular)</li>
-                                <li>Place Credit Orders with Regular Customers</li>
-                                <li>Return Regular and Wholesale Orders</li>
-                                <li>View Expenses</li>
-                                <li>View Profit and Loss Reports (Daily, Monthly, or Annually)</li>
-                                <li>Backup and Restore Functionality</li>
-                                <li>View Product Stats and Selling Reports</li>
-                                <li>View Stock Out Products</li>
-                                <li>View Top Selling Products for Last Month and Year</li>
-                                <li>View Customer Credits</li>
-                                <li>View Supplier Credits</li>
-                                <li>Cancel Orders</li>
-                                <li>Hold Order Functionality</li>
-                                <li>Strong Admin Authentication</li>
-                                <li>Basic Invoice Settings</li>
-                                <li>Tax Feature (Customizable, Enable or Disable)</li>
-                                <li>Multi-Branch Support</li>
-                            </ol>
-                            
-                            <p><h5>Demo Access</h5>
-                                <br>Username : admin  |  Password: admin
-                            </p>                                
-
-                            <div class="mh-about-tag">
-                                <ul>
-                                    <li><span>PHP</span></li>
-                                    <li><span>HTML</span></li>
-                                    <li><span>CSS</span></li>
-                                    <li><span>JQuery</span></li>
-                                    <li><span>CodeIgniter</span></li>
-                                    <li><span>MySQL</span></li>
-                                </ul>
-                            </div>
-                            <a href="http://upos.uvisionpk.com/v2.8/admin/login" target="_blanck" class="btn btn-fill">Live Demo</a>
-                        </div>
-                        <div class="col-sm-7">
-                            <div class="mh-portfolio-modal-img">
-                                <img src="assets/images/upos.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mh-portfolio-modal" id="hostfit">
-                <div class="container">
-                    <div class="row mh-portfolio-modal-inner">
-                        <div class="col-sm-5">
-                            <h2>HostFit</h2>
-                            <p>I had the privilege of working on the Hostfit project, a Laravel-based website designed to simplify the booking experience for travelers looking for exciting tour plans. My contributions to this project involved enhancing the booking logic, refining the tour listing algorithms, and implementing key improvements to provide a seamless user experience.</p>       
-                            <p>One of the major milestones in this project was the successful integration of the myFatoorah payment gateway, which added a secure and efficient payment processing system for our users.</p>
-                            <p>Throughout my involvement, I also diligently addressed and resolved various bugs and issues to ensure the platform's stability and reliability. These efforts were aimed at delivering a top-notch, error-free booking platform for travelers and adventurers.</p>
-                            <p>My work on the Hostfit project reflects my commitment to enhancing user experiences, optimizing functionalities, and ensuring the highest level of quality in web development. I'm proud to include this project in my portfolio, showcasing my skills and expertise in Laravel development and payment gateway integration..</p>      
-                            <div class="mh-about-tag">
-                                <ul>
-                                    <li><span>PHP</span></li>
-                                    <li><span>HTML</span></li>
-                                    <li><span>CSS</span></li>
-                                    <li><span>JQuery</span></li>
-                                    <li><span>Laravel</span></li>
-                                    <li><span>MySQL</span></li>
-                                    <li><span>API Integration</span></li>
-
-                                </ul>
-                            </div>
-                            <a href="https://tours.hostf.it/" target="_blanck" class="btn btn-fill">Live Demo</a>
-                        </div>
-                        <div class="col-sm-7">
-                            <div class="mh-portfolio-modal-img">
-                                <img src="assets/images/tours.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mh-portfolio-modal" id="doc">
-                <div class="container">
-                    <div class="row mh-portfolio-modal-inner">
-                        <div class="col-sm-5">
-                            <h2>Book A Doctor</h2>
-                            <p>"Book A Doctor" - is an Online Doctor Reservation web application designed to provide users with the ability to reserve, view, and manage doctors and doctor appointment reservation . The system aims to streamline the process of finding and booking doctors from various locations.</p>
-
-                            
-                            <div class="mh-about-tag">
-                                <ul>
-                                    <li><span>React</span></li>
-                                    <li><span>Redux</span></li>
-                                    <li><span>Ruby On Rails</span></li>
-                                    <li><span>PostgreSQL</span></li>
-                                    <li><span>API integration</span></li>
-                                </ul>
-                            </div>
-                            <a href="https://book-a-doctor.onrender.com/" target="_blanck" class="btn btn-fill">Live Demo</a>
-                            <a href="https://github.com/kamranasif506/Book-A-Doctor" target="_blanck" class="btn btn-fill">Source Code</a>
-                        </div>
-                        <div class="col-sm-7">
-                            <div class="mh-portfolio-modal-img">
-                                <img src="assets/images/doctor.png" alt="" class="img-fluid">
+                                <img src="assets/images/pr-0.jif" alt="" class="img-fluid">
+                                <p>All variations are organized separately so you can use / customize the template very easily.</p>    
+                                <img src="assets/images/pr-1.jif" alt="" class="img-fluid">
+                                <p>All variations are organized separately so you can use / customize the template very easily.</p>     
                             </div>
                         </div>
                     </div>
@@ -988,17 +715,69 @@
                     <div class="row section-separator">
                         <div class="each-quates col-sm-12 col-md-6">
                             <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Interested to Work?</h3>
-                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Exploring exciting opportunities to collaborate or have questions in mind? Don't hesitate to reach out – I'm here to partner with you in achieving your aspirations.
-                            </p>
+                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Mirum est notare quam littera gothica.
+                            quam nunc putamus parum claram,</p>
                             <a href="#mh-contact" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Contact</a>
-                            <a href="https://www.fiverr.com/s/jlyZYw" target="_blank" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Fiverr</a>
-                            <a href="https://www.upwork.com/freelancers/~010aa6034a5e166c9d?viewMode=1" target="_blank" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Upwork</a>
+                            <a href="https://www.fiverr.com/s/jlyZYw" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Fiverr</a>
+                            <a href="https://www.upwork.com/freelancers/~010aa6034a5e166c9d?viewMode=1" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Upwork</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-       
+        <!--
+        ===================
+           Testimonial
+        ===================
+        -->
+        <!-- <section class="mh-testimonial" id="mh-testimonial">
+            <div class="home-v-img">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            <h3>Client Reviews</h3>
+                        </div>
+                        <div class="col-sm-12 wow fadeInUp" id="mh-client-review" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Its great to work with Kamran, very talented and easy to work with.</p>
+                                    <h4>Rafi abdrahman</h4>
+                                    <span>Brunei Darussalam</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>This wasn't an easy task, we needed to upgrade PHP and Laravel to the latest versions for our website, and kamran Asif completed it as needed.</p>
+                                    <h4>Proform</h4>
+                                    <span>Armenia</span>
+                                </div>
+                            </div>                    
+                            
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Hard workin kamranasif304 was more than helpful Dont hesitate to spend your cash on me Quick to deliver Really grateful Many thankz</p>
+                                    <h4>frnz1e</h4>
+                                    <span>Cameron</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>great customer service, response time is amazing would highly recommend him. If you need something to be done in emergency he is the men to work with.</p>
+                                    <h4>Aj_Sahar</h4>
+                                    <span>United Kingdom</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         -->
         <!--
         ===================
            FOOTER 3
@@ -1060,20 +839,20 @@
                                             </div>
                 
                                             <div class="col-sm-12">
-                                                <input name="lastname" class="contact-email form-control" id="L_name" type="text" placeholder="Last Name" required>
+                                                <input name="name" class="contact-email form-control" id="L_name" type="text" placeholder="Last Name" required>
                                             </div>
                 
                                             <div class="col-sm-12">
-                                                <input name="email" class="contact-subject form-control" id="email" type="email" placeholder="Your Email" required>
+                                                <input name="name" class="contact-subject form-control" id="email" type="email" placeholder="Your Email" required>
                                             </div>
                 
                                             <div class="col-sm-12">
-                                                <textarea name="message" class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
+                                                <textarea class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
                                             </div>
                                             
                                             <!-- Subject Button -->
                                             <div class="btn-form col-sm-12">
-                                                <button type="submit" class="btn btn-fill btn-block">Send Message</button>
+                                                <button type="submit" class="btn btn-fill btn-block" id="form-submittt">Send Message</button>
                                             </div>
                                         </div>
                                     </form>
@@ -1130,6 +909,7 @@
     <script src="assets/plugins/js/jquery.nav.js"></script>
     <!-- Fancybox js-->
     <script src="assets/plugins/js/jquery.fancybox.min.js"></script>
+    <!-- Map api -->
     <!-- isotope js-->
     <script src="assets/plugins/js/isotope.pkgd.js"></script>
     <script src="assets/plugins/js/packery-mode.pkgd.js"></script>
